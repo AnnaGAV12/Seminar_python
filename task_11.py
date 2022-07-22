@@ -4,11 +4,10 @@
 list2 = ["qwe", "asd", "zxc", "qwe", "ertqwe"]
 count2 = 'qwe'
 chec = 0
-
 for index in range(len(list2)):
     if count2 == list2[index]:
         chec += 1
-        if chec > 1:
+        if chec > 1: # чтобы не печатал первое вхождение
             print(f'второе вхождение: {index}')
             break
 else:
