@@ -1,4 +1,4 @@
-# import os
+import os
 
 # path = os.path.join('folder', 'file.txt')
 # with open(path, 'r') as f:
@@ -22,6 +22,6 @@
 #     print(line)
 
 
-path = r'folder/file.txt'
+path = r'C:\Users\a.goncharova\Desktop\GeekBrains\Python\Seminar_python\Seminars\folder'
 with open(path, 'w') as data:
    data.write('asd')
